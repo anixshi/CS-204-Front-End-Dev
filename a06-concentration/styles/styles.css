@@ -1,0 +1,177 @@
+body {
+    background-color: mistyrose;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center
+}
+.play-area{
+    border: 3px solid black;
+    margin: auto;
+    position:relative;
+    width:700px;
+    height:700px;
+    background-color: mistyrose
+}
+
+.squares{
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+.validation_icons{
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px
+}
+
+
+#1{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#2{
+    position:absolute;
+    top: 0px;
+    left: 150px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#3{
+    position:absolute;
+    top: 0px;
+    left: 300px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#4{
+    position:absolute;
+    top: 0px;
+    left: 450px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#5{
+    position:absolute;
+    top: 150px;
+    left: 0px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#6{
+    position:absolute;
+    top: 150px;
+    left: 150px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#7{
+    position:absolute;
+    top: 150px;
+    left: 300px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#8{
+    position:absolute;
+    top: 150px;
+    left: 450px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#9{
+    position:absolute;
+    top: 300px;
+    left: 0px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#10{
+    position:absolute;
+    top: 300px;
+    left: 150px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#11{
+    position:absolute;
+    top: 300px;
+    left: 300px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#12{
+    position:absolute;
+    top: 300px;
+    left: 450px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#13{
+    position:absolute;
+    top: 450px;
+    left: 0px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#14{
+    position:absolute;
+    top: 450px;
+    left: 150px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#15{
+    position:absolute;
+    top: 450px;
+    left: 300px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
+
+#16{
+    position:absolute;
+    top: 450px;
+    left: 450px;
+    width:25%;
+    height:25%;
+    margin: 0;
+}
