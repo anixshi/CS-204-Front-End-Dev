@@ -1,0 +1,10 @@
+.leaf,.node {
+    border: 1px solid red;
+    /*border-width: 0px;*/
+    padding-left: 1em;
+    
+}
+
+.leaf {
+    margin: 0px;
+}
