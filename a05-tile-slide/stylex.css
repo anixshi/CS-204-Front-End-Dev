@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+}
+
+ a{
+  text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;  
+}
+
+footer li {
+    display: inline;   
+}
+
+#up{
+  position: absolute;
+  top: 10px;
+  left: 130px;
+  right: 120px; 
+}
+#down{
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    right: -80px;
+}
+
+#left{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+#right{
+    position: absolute;
+    top: 50px;
+    right: -120px;
+    left: 200px;
+}
+
+.play-area{
+    position: relative;
+    width: 600px;
+    height: 600px;
+
+    top: 80px;
+    left: 500px;
+    border: 3px solid #73AD21;
+}
+
+.tile-image{
+    position: absolute;
+
+}
+
+#a{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    
+}
+
+#b{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+#c{
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+#d{
+    position: absolute;
+    top: 200px;
+    left:0px;
+}
+
+#e{
+    position: absolute;
+    top: 200px;
+    left:200px;
+}
+
+#f{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+#g{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+}
+
+#h{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+#blank{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
