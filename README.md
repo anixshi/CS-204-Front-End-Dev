@@ -1,5 +1,5 @@
 # CS-204-Front-End-Dev
-Assignments from CS 204: Front-End Development
+Assignments from CS 204: Front-End Development (Spring 2019)
 
 
 From course website:
