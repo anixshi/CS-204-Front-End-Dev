@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>20 Questions!</title>
+        <link rel="stylesheet" href = "stylesheets/styles.css">
+        <link rel="stylesheet" href="stylesheets/skeleton.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    </head>
+    <body>
+        <h1>20 Questions!</h1>
+        <button id="get-tree" type="button">Get Tree From Server</button>
+        <button id="start-game" type="button">Start New Game</button>
+        <button id="show-tree" type="button">Show Tree</button>
+        
+        <div id="tree-display">
+           
+            <!--tree goes here-->
+            
+        </div>
+        <div id="game-container" class= "game">
+            <ol id="questions-list">
+            </ol>
+        </div>
+    </body>
+    
+    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script type="text/JavaScript" src="parseTree.js"></script>
+    <script type="text/JavaScript" src="game.js"></script>
+</html>
