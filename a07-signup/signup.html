@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<!--Katherine Gao and Anika Shields -->
+<!--Assignment 7-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="signup">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <title>Signup Form</title>
+</head>
+
+    <body class="container">
+        <h1 id="title"> Signup for Wellesley Eats</h1>
+        
+        <form data-role="form" id="form" action="https://cs.wellesley.edu/~cs204/form-echo-html.php" method="post">
+            <label for="name"> Username:
+                <input id="name" type="text" name="name" size="30" placeholder="Wendy Wellesley" autofocus>
+            </label>
+            <span class="error" id="invalid-user"> </span>
+            <p>
+                <label for="password1"> Password:
+                <input id="password1" type="password" name="password1" size="30">
+                </label>
+                <span class="error" id="invalid-pw1"> </span>
+            </p>
+            
+            
+            <p>
+                <label for="password2"> Password again:
+                <input id="password2" type="password" name="password2" size="30">
+                </label>
+                <span class="error" id="invalid-pw2"> </span>
+            </p>
+            
+            
+            <p>
+                <label for="card"> Credit Card Number: 
+                    <input id="card" type="text" name="card" size="30">
+                </label>
+                <span class="error" id="invalid-card"> </span>
+            </p>
+            
+            <p id="submit"><input type="submit" value="Submit">
+            
+        </form>
+    </body>
+    <script src="scripts/formhandler.js" charset="utf-8"></script>
+    <script src="scripts/signup.js" charset="utf-8"></script>
+    <script src="scripts/Luhn.js" charset="utf-8"></script>
+</html>
