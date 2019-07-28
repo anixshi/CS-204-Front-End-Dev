@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jelly Blobs of Doom!</title>
+        <link rel="stylesheet" href = "stylesheets/styles.css">
+        <link rel="stylesheet" href="stylesheets/skeleton.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    </head>
+    <body>
+        <div id = "start">
+
+            <h1>Jelly Blobs of Doom</h1>
+            <p>Based on an original game by Alice Zhou and Jacqueline Young.</p>
+            
+            <p>Instructions:
+            <li>Move the mouse to control the blob.</li>
+            <li>Eat blobs that are smaller than you in order to grow.</li>
+            <li>Avoid bigger blobs or else you will shrink.</li>
+            </p>
+            
+            <p>Good luck!</p>
+            
+            <button id="start-game" type="button">Start Game</button>
+            <button id="test-grow" type="button">Test Growing</button>
+            <button id="test-shrink" type="button">Test Shrinking</button>
+        </div>
+        
+        <div class="game-container" id = "game-container"></div>
+        
+        <div class="test-container" id = "test-container"></div>
+        <div class="result"></div>
+    </body>
+    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="scripts/Blob.js"></script>
+    <script src="scripts/random.js"></script>
+    <script src="scripts/Player.js"></script>
+    <script src="scripts/Enemy.js"></script>
+    <script src="scripts/game.js"></script>
+
+</html>
